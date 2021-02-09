@@ -7,6 +7,8 @@
 <body>
 <div class="canvas-app">
     <img src="nodejs.png"/>
+        <iframe src="https://twilio-new-from-personalacc.herokuapp.com/zomato.html" title="Zomato"></iframe>
+
     <p>Hello, <%= context.user.firstName %>. This is a web app written in Node.js embedded in your Salesforce page (It could also be written in any other language).</p>
     <p>It is aware of its environment. For example, here are a few things it knows:</p>
     <table>
@@ -17,7 +19,6 @@
     <p>It can also access more data in Salesforce using the REST APIs. With context and APIs, Canvas makes it easy to integrate applications written in any language inside your Salesforce pages.</p>
     <p>For example, the QR Code below is generated in Node.js. Scan it to create a contact on your mobile phone:</p>
     <%- imgTag %>
-    <iframe src="https://twilio-new-from-personalacc.herokuapp.com/zomato.html" title="Zomato"></iframe>
 
 </div>
 </body>
